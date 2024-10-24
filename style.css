@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: bisque;
+}
+
+
+.container {
+    display: flex; /* La otra opción es inline-flex , Los contenedores se comportaran como si estuvieran inline*/
+    flex: row;
+    height: 20vh;
+    background-color: cadetblue;
+    flex-wrap: wrap;
+
+}
+
+.items{
+    width: 20%;
+    border: solid 1px black;
+}

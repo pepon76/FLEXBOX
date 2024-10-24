@@ -1,0 +1,125 @@
+Chuleta de Emmet para HTML
+Estructura Básica
+! → Estructura básica de HTML5.
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body></body>
+</html>
+
+
+Divs con Clases e ID
+.class → Div con clase.
+
+
+
+<div class="class"></div>
+#id → Div con ID.
+
+
+
+<div id="id"></div>
+div#id.class → Div con ID y clase.
+
+
+
+<div id="id" class="class"></div>
+Enlaces e Imágenes
+a → Crear enlace.
+
+
+
+<a href=""></a>
+img → Crear imagen.
+
+
+
+<img src="" alt="">
+Listas
+ul>li*5 → Crear lista desordenada con 5 elementos <li>.
+
+
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+Elementos Hijos y Hermanos
+div>p → Crear div con un párrafo dentro.
+
+
+
+<div>
+    <p></p>
+</div>
+h1+h2+p → Crear hermanos (h1, h2, p).
+
+
+
+<h1></h1>
+<h2></h2>
+<p></p>
+Tablas
+table>tr*2>td*3 → Crear tabla con 2 filas y 3 celdas en cada fila.
+
+
+<table>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+Formularios
+form>label+input[type="text"]+button → Formulario con label, input y botón.
+
+
+<form>
+    <label for=""></label>
+    <input type="text">
+    <button></button>
+</form>
+Multiplicadores
+div.class*3 → Crear 3 divs con la misma clase.
+
+
+<div class="class"></div>
+<div class="class"></div>
+<div class="class"></div>
+Texto dentro de etiquetas
+p{Texto} → Crear párrafo con texto.
+
+
+<p>Texto</p>
+Atributos personalizados
+input[type="text" name="username"] → Crear input con atributos personalizados.
+
+
+<input type="text" name="username">
+Agrupación
+div>(header>h1)+footer>p → Agrupación de elementos.
+
+
+<div>
+    <header>
+        <h1></h1>
+    </header>
+    <footer>
+        <p></p>
+    </footer>
+</div>
+
+article.items*3{Flex Item $}
